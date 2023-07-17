@@ -6,3 +6,10 @@ const gridContainer = document.querySelector('.grid-container');
 const overlay = document.querySelector('.overlay');
 const modalContainer = document.querySelector('.modal-content');
 const modalClose = document.querySelector('.modal-close');
+
+//fetch data from API
+fetch(urlAPI)
+  .then(response => response.json())
+  .then(response => response.results)
+  .then(displayEmployees)
+  .catch(err => err.console.log(err))
