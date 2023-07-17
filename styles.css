@@ -1,3 +1,16 @@
 body {
   position: relative;
 }
+
+/* id elements */
+
+/* class elements */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(100, 100, 100, 0.4);
+}
