@@ -18,10 +18,8 @@ fetch(urlAPI)
 function displayEmployees(employeeData) {
   employees = employeeData;
 
-  //stores the employee HTML as I create it 
   let employeeHTML = '';
 
-  //looping through each employee and create HTML markup
   employees.forEach((employee, index) => {
     let name = employee.name;
     let email = employee.email;
