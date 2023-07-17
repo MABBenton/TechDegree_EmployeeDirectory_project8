@@ -5,6 +5,9 @@ body {
 /* id elements */
 
 /* class elements */
+.hidden {
+  display: none;
+}
 
 .overlay {
   position: absolute;
@@ -23,4 +26,11 @@ body {
   text-align: center;
   background: #ffffea;
   border-radius: 5px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
 }
