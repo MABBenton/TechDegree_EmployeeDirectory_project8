@@ -2,9 +2,31 @@ body {
   position: relative;
 }
 
+header,
+main {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
 /* id elements */
 
 /* class elements */
+
+.email,
+.address {
+  color: rgb(119, 119, 119);
+}
+
+h1,
+.name {
+  color: rgb(60, 60, 60);
+}
+
+.card {
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 7px;
+}
+
 .hidden {
   display: none;
 }
@@ -33,4 +55,16 @@ body {
   top: 5px;
   right: 15px;
   cursor: pointer;
+}
+
+/* grid */
+
+.grid-container {
+  display: grid;
+  max-width: 900px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px 40px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
