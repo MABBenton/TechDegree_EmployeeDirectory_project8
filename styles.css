@@ -1,11 +1,20 @@
 body {
   position: relative;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header,
 main {
   margin-left: 3em;
   margin-right: 3em;
+}
+
+h2 {
+  color: rgb(60, 60, 60);
+}
+
+img{
+  border-radius: 50%;
 }
 
 /* id elements */
@@ -15,11 +24,6 @@ main {
 .email,
 .address {
   color: rgb(119, 119, 119);
-}
-
-h1,
-.name {
-  color: rgb(60, 60, 60);
 }
 
 .card {
