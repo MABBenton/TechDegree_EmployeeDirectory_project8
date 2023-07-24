@@ -1,6 +1,7 @@
 body {
   position: relative;
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 
 header,
@@ -16,7 +17,7 @@ h2 {
 img{
   border-radius: 50%;
   height: 100px;
-  margin: auto 1.3rem;
+  margin: auto 1rem;
 }
 
 /* id elements */
@@ -24,6 +25,7 @@ img{
 /* class elements */
 
 .card {
+  display: flex;
   border: 2px solid rgb(211, 211, 211);
   border-radius: 7px;
 }
@@ -41,9 +43,14 @@ img{
   margin-bottom: 5px;
 }
 
+.name {
+  font-size: 18px;
+}
+
 .email,
 .address {
   color: rgb(119, 119, 119);
+  font-size: 14px;
 }
 
 .hidden {
@@ -80,16 +87,10 @@ img{
 
 .grid-container {
   display: grid;
-  max-width: 900px;
+  max-width: 1000px;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px 30px;
   margin-top: 30px;
   margin-bottom: 50px;
-}
-
-/* flexbox */
-
-.card {
-  display: flex;
 }
