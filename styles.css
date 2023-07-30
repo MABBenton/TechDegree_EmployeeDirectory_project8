@@ -10,7 +10,8 @@ main {
   margin-right: 3em;
 }
 
-h2 {
+h2,
+button {
   color: rgb(60, 60, 60);
 }
 
@@ -18,6 +19,12 @@ img{
   border-radius: 50%;
   height: 6rem;
   margin: auto 0 auto 1.5rem;
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 18px;
 }
 
 /* id elements */
