@@ -27,6 +27,10 @@ button {
   font-size: 18px;
 }
 
+hr {
+  margin: 1.5rem 0;
+}
+
 /* id elements */
 
 /* class elements */
@@ -44,8 +48,8 @@ button {
 .name,
 .email,
 .address {
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .name {
@@ -53,7 +57,10 @@ button {
 }
 
 .email,
-.address {
+.address,
+.phone,
+.full-address,
+.dob {
   color: rgb(119, 119, 119);
   font-size: 14px;
 }
@@ -79,6 +86,7 @@ button {
   text-align: center;
   background: #fdfdf4;
   border-radius: 7px;
+  border: 2px solid rgb(211, 211, 211);
 }
 
 .modal-close {
