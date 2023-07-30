@@ -17,7 +17,7 @@ h2 {
 img{
   border-radius: 50%;
   height: 6rem;
-  margin: auto 1rem;
+  margin: auto 0 auto 1.5rem;
 }
 
 /* id elements */
@@ -31,9 +31,7 @@ img{
 }
 
 .text-container {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-right: 2rem;
+  margin: 2rem 1.5rem;
 }
 
 .name,
@@ -72,8 +70,8 @@ img{
   margin: 15% auto auto;
   padding: 30px 20px;
   text-align: center;
-  background: #ffffea;
-  border-radius: 5px;
+  background: #fdfdf4;
+  border-radius: 7px;
 }
 
 .modal-close {
